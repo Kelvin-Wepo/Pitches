@@ -21,7 +21,7 @@
         </div>
         <div class="col-md-4">
             <p> <b>Name:</b> {{user.firstname}} {{user.lastname}} </p>
-            <p><b> No of piches:</b> {{pitches}}</p>
+            <p><b> No of pitches:</b> {{pitches}}</p>
             <p><b> Date joined: </b>{{date}}</p>
         </div>
 
@@ -32,7 +32,7 @@
             {% if user.bio %}
             <p> {{user.bio}}</p>
             {%else%}
-            <p> {{user.username| capitalize}} has no bio </p>
+            <p> {{user.username| capitalize}}no bio available </p>
             {% endif %} {% if user == current_user %}
             <a href="{{url_for('main.update_profile',uname=user.username)}}"><button type="button"
                     class="btn btn-info">Edit profile</button></a> {% endif %}
