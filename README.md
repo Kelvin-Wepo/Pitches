@@ -18,7 +18,7 @@
 
 # SETUP/INSTALLATION
 
--Git clone the repo
+-Git clone the repo https://github.com/Kelvin-Wepo/Pitches
        
 
 -Navigate to the cloned repo
